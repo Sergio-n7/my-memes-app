@@ -1,8 +1,9 @@
 
-<div class="row">
+<div class="container p-4">
+    <div class="row">
     <div class="col-md-4">
         <div class="card">
-          <form action="">
+          <form action="/images/add" method="POST" enctype="multipart/form-data">
             <div class="form-group">
                 <input type="text" name="title" class="form-control" placeholder="Meme Title">
             </div>
@@ -15,8 +16,11 @@
                     <label for="inputGroupFile01" class="custom-file-label">Choose File</label>
                 </div>
             </div>
-            <button class="btn btn-primary">Upload Meme</button>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block">Upload</button>
+            </div>
           </form>
        </div>
     </div>
+</div>
 </div>
