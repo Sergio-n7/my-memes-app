@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src/index.js",
-    "start": "cross-env NODE_ENV=production node src/index.js",
-    "build": "npm run build"
+    "start": "cross-env NODE_ENV=production node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/Sergio-n7/Memes-gallery-app#readme",
   "dependencies": {
+    "build": "^0.1.4",
     "cloudinary": "^1.26.2",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
