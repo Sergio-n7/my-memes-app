@@ -4,8 +4,7 @@
   "description": "## Upload your fav meme",
   "main": "index.js",
   "scripts": {
-    "build": "npm src && npm install && npm run build",
-    "start": "nodemon src/index.js"
+    "start": "nodemon --watch backend --exec node --experimental-modules src/index.js"
   },
   "keywords": [],
   "author": "",
