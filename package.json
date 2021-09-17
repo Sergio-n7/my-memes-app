@@ -4,7 +4,7 @@
   "description": "## Upload your fav meme",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "cross-env NODE_ENV=production",
     "start": "node src/index.js"
   },
   "keywords": [],
