@@ -4,6 +4,7 @@
   "description": "## Upload your fav meme",
   "main": "index.js",
   "scripts": {
+    "build":"cd frontend && npm install && npm run build",
     "start": "nodemon src/index.js"
   },
   "repository": {
@@ -36,5 +37,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "engines":{ "node":"12.4.0", "npm":"6.9.0"}
 }
