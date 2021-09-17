@@ -6,17 +6,9 @@
   "scripts": {
     "start": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sergio-n7/Memes-gallery-app.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sergio-n7/Memes-gallery-app/issues"
-  },
-  "homepage": "https://github.com/Sergio-n7/Memes-gallery-app#readme",
   "dependencies": {
     "build": "^0.1.4",
     "cloudinary": "^1.26.2",
